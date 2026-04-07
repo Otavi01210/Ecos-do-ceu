@@ -6,14 +6,21 @@
 }
 
 body{
-    background-color : blue;/*mudar*/
+    background-color : purple;/*mudar*/
     color: black;/*mudar*/
     display:flex;
     justify-content : center;
     align-items : center;
 }
 #app{
-    background : red;/*mudar*/
+    background : pink;/*mudar*/
+    display:flex;
+    flex-direction:column;
+    width:380px;/*mudar*/
+    height:500px;/*mudar*/
+    padding:15px;/*mudar*/
+    border-radius: 15px;
+    box-shadow:0 0 10px rgba(255, 0, 0, 0.5);/*mudar*/
 }
 main{
     padding : 30px;
@@ -28,4 +35,5 @@ nav{
     display : flex;
     align-items : center;
     padding : 10px;
+    justify-content:space-between;
 }
