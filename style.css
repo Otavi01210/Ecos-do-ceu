@@ -37,3 +37,28 @@ nav{
     padding : 10px;
     justify-content:space-between;
 }
+body{
+    min-height:100vh;
+
+}
+#msg{
+    width:100%;
+    overflow-wrap : break-word;
+    word-wrap : break-word;
+    font-size : 18px;/*m*/
+}
+
+button{
+    width:80px;/*m*/
+    height:80px;
+    background:radial-gradient(circle,blue,blue);/*m*/
+    border-radius:50%;
+    border:none;
+    cursor:pointer;
+    margin-top:auto;
+    color:azure;/*m*/
+    transition:0.3s;
+}
+button:hover{
+    scale:1.1;
+}
