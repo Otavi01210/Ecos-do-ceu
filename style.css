@@ -7,13 +7,13 @@
 
 body{
     background-color : purple;/*mudar*/
-    color: black;/*mudar*/
+    color: rgb(133, 155, 228);/*mudar*/
     display:flex;
     justify-content : center;
     align-items : center;
 }
 #app{
-    background : pink;/*mudar*/
+    background : rgb(82, 0, 34);/*mudar*/
     display:flex;
     flex-direction:column;
     width:380px;/*mudar*/
@@ -31,7 +31,7 @@ main{
     text-align : center;
 }
 nav{
-    border-top : 2px solid black;
+    border-top : 2px solid rgb(255, 6, 6);
     display : flex;
     align-items : center;
     padding : 10px;
@@ -73,4 +73,24 @@ button:hover{
 main{
     padding:20px;
 }
+}
+body{
+    flex-direction: column;
+}
+#app{
+    margin: 50px;
+}
+header{
+    color:aqua;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+footer{
+    padding: 20px;
 }
