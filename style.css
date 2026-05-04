@@ -6,21 +6,21 @@
 }
 
 body{
-    background-color : rgb(106, 106, 106);/*mudar*/
-    color: rgb(255, 255, 255);/*mudar*/
+    background-color : rgb(129, 24, 161);/*mudar*/
+    color: rgb(0, 217, 255);/*mudar*/
     display:flex;
     justify-content : center;
     align-items : center;
 }
 #app{
-    background : rgb(0, 0, 0);/*mudar*/
+    background : rgb(59, 1, 82);/*mudar*/
     display:flex;
     flex-direction:column;
     width:380px;/*mudar*/
     height:500px;/*mudar*/
     padding:15px;/*mudar*/
     border-radius: 15px;
-    box-shadow:0 0 10px rgb(255, 255, 255);/*mudar*/
+    box-shadow:0 0 10px rgb(0, 255, 234);/*mudar*/
 }
 main{
     padding : 30px;
@@ -31,7 +31,7 @@ main{
     text-align : center;
 }
 nav{
-    border-top : 2px solid rgb(255, 255, 255);
+    border-top : 2px solid rgb(0, 60, 255);
     display : flex;
     align-items : center;
     padding : 10px;
@@ -51,12 +51,12 @@ body{
 button{
     width:80px;/*m*/
     height:80px;
-    background:radial-gradient(circle,rgb(255, 255, 255),rgb(255, 255, 255));/*m*/
+    background:radial-gradient(circle,rgb(0, 255, 242),rgb(255, 0, 140));/*m*/
     border-radius:50%;
     border:none;
     cursor:pointer;
     margin-top:auto;
-    color:rgb(0, 0, 0);/*m*/
+    color:rgb(255, 0, 0);/*m*/
     transition:0.3s;
 }
 button:hover{
@@ -81,7 +81,7 @@ body{
     margin: 50px;
 }
 header{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 195, 255);
     position: fixed;
     top: 0;
     display: flex;
